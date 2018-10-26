@@ -16,7 +16,7 @@ def calculate(arg):
         except ValueError:
             val1 = stack.pop()
             val2 = stack.pop()
-            if token == '+'
+            if token == '+':
                 result = val1 + val2
             elif token == '-':
                 result = val1 - val2
