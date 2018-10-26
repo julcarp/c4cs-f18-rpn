@@ -17,6 +17,7 @@ class TestBasics(unittest.TestCase):
     def test_div(self):
         result = rpn.calculate('6 3 /')
         self.assertEqual(2, result)
-
-
-#TODO ADD A TEST FOR SUBTRACT
+    
+    def test_chain(self):
+        result = rpn.calculate('1 1 + 2 *')
+        selfAssertEqual(4, result)
